@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+float p,r,y,si,t;
+printf("enter the principal");
+scanf("%f", &p);
+printf("enter the rate");
+scanf("%f", &r);
+si=p*r*y/100;
+t=si+p;
+printf("\n si value is %.2f",si);
+printf("\n total value is %.2f",t);
+}
