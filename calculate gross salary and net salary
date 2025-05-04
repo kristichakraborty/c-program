@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+float sal,da,ta,hra,pf,gross net;
+printf("enter salary");
+scanf("%f", &sal);
+da=sal*50/100;
+ta=sal*30/100;
+hra=sal*20/100;
+pf=sal*12/100;
+gross=sal+da+ta+hra;
+net=gross-pf;
+printf("\n da is %f",da);
+printf("\n ta is %f",ta);
+printf("\n hra is %f",hra);
+printf("\n pf is %f",pf");
+printf("\n gross value is %f", gross");
+printf("\n net value is %f", net);
+}
